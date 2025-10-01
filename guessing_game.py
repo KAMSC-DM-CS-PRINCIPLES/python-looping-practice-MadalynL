@@ -8,7 +8,7 @@ def guessing_game():
     target = 15
     answer = 0
     while answer != target:
-        answer = input("Enter your guess: ")
+        answer = int(input("Enter your guess: "))
         if answer == target:
             break
         elif answer>target:
