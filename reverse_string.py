@@ -6,7 +6,7 @@ def reverse_string(text):
     # HINT: Return the reversed_text
     # HINT: NO SLICING ALLOWED - must use loops only
     pass
-    reverse_text = ""
+    reverse_text = ''
     for i in range (len(text)-1, -1, -1):
         reverse_text.append(text[i])
     return reverse_text
